@@ -1,0 +1,127 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* general code  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+/* pencil bar start */
+.pencil-main,
+.pencil {
+    background-color: #EF6A25;
+}
+
+.pencil {
+    display: flex;
+    align-items: center;
+    padding: 14px 0;
+    justify-content: space-evenly;
+}
+
+.pencil .pencil-left a,
+.pencil .pencil-left span,
+.pencil-center span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* header section start */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 0;
+}
+
+.header-search .account-form {
+    position: relative;
+}
+
+.header-search .account-form .input-search {
+    width: 832px;
+    padding: 18px 127px 21px 62px;
+    background: url(../img/search-icon.png) no-repeat 16PX 16PX;
+    background-color: #F7F7F7;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-search .account-form .input-search:placeholder-shown {
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.41px;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-search .account-form .search-butt {
+    position: absolute;
+    right: 0;
+    background-color: #EF6A25;
+    color: #FFFFFF;
+    padding: 18px 46px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.54px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* header account and cart */
+.header .header-account {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+
+.header .header-account .my-account {
+    display: flex;
+    gap: 4px;
+}
+
+.header .header-account .my-account .form-select {
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+.header .header-account .header-cart {
+    display: flex;
+}
+
+.header .header-account .header-cart .cart-img {
+    display: flex;
+    align-items: center;
+}
+
+
+.header .header-account .header-cart .cart-details .cart-line-one {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.06px;
+    color: #3753AF;
+}
+
+.header .header-account .header-cart .cart-details .cart-line-two {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.09px;
+}
